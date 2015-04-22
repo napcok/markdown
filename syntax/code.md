@@ -1,38 +1,38 @@
 # Bloki kodu
 
-Pre-formatted code blocks are used for writing about programming or markup source code. Rather than forming normal paragraphs, the lines of a code block are interpreted literally.
+Preformatowane bloki kodu są używane do pisania o programowaniu lub oznaczania fragmentów kodu źródłowego. Zamiast tworzyć normalne akapity, linie w bloku kodu są interpretowane dosłownie.
 
-Here is an example:
-
-```
-This is a code block
-```
-
-To produce a code block in Markdown, simply indent every line of the block by at least 4 spaces or 1 tab.
-
-For example:
+Przykład:
 
 ```
-This is a normal paragraph:
-
-    This is a code block.
+To jest blok kodu
 ```
 
-You can also create code block separated by:
+Aby utworzyć blok kodu, można po prostu użyć przynajmniej 4 spacji lub 1 tabulatora na początku linii.
+
+Dla przykładu:
+
+```
+To będzie normalny akapit:
+
+    A to blok kodu.
+```
+
+Można także utworzyć blok kodu za pomocą:
 
     ```
 
-### Inline code blocks
+### Kod w linii
 
-Inline code blocks can be written using: `
+Kod w linii można utworzyć za pomocą: `
 
-For example:
+Przykład:
 
-    This is a `inline code block`
+    To jest `kod w linii`
 
-### Syntax highlighting
+### Podświetlanie składni
 
-You can define the language to be used for syntax highlighting by adding the name on the opening tag. Example:
+Można zdefiniować język dla podświetlania składni dodając jego nazwę na początku tagu otwierającego blok. Przykład:
 
     ```js
     var a = {};

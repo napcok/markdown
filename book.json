@@ -1,4 +1,8 @@
 {
+    "title": "Poznaj Markdown",
+    "description": "Krótki przewodnik po składni Markdown",
+    "language": "pl", 
+    "gitbook": "2.x.x",
     "plugins": [
         "quizzes"
     ]

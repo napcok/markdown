@@ -1,5 +1,5 @@
 # Nagłówki
-Gdy piszemy dokument w markdown musimy mieć możliwość dodawania tytułów i nagłówków.
+Gdy piszemy dokument w markdown musimy mieć możliwość dodawania tytułów oraz nagłówków.
 
 Markdown udostępnia dwa sposoby tworzenia nagłówków.
 

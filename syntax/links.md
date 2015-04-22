@@ -1,55 +1,33 @@
 # Linki
 
-Markdown supports two styles of links: inline and reference.
+Markdown posiada dwa style linków: w linii oraz referencyjne.
 
-In both styles, the link text is delimited by [square brackets].
+W obu stylach tekst linku jest oznaczony [nawiasami kwadratowymi].
 
-To create an inline link, use a set of regular parentheses immediately after the link text’s closing square bracket. Inside the parentheses, put the URL where you want the link to point, along with an optional title for the link, surrounded in quotes. For example:
+Aby utworzyć link w linii, używamy zwykłych nawiasów natychmiast po nawiasie kwadratowym zawierającym tekst linku. W nawiasie umieszczamy adres URL na który ma wstazywać link oraz opcjonalnie tytuł linku w cudzysłowiu. Na przykład:
 ```markdown
-[I'm an inline-style link](https://www.google.com)
+[Jestem linkiem w linii](https://www.google.com)
 
-[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
+[Jestem linkiem w linii z tytułem](https://www.google.com "Strona Google")
 
-[I'm a reference-style link][Arbitrary case-insensitive reference text]
+```
+Linki referencyjne używają drugiej pary nawiasów kwadratowych, pomiędzy którymi umieszczamy etykietę służącą do identyfikacji linku:
 
-[I'm a relative reference to a repository file](../blob/master/LICENSE)
+```markdown
+To jest [przykładowy][id] link referencyjny.
+```
+Opcjonalnie można użyć spacji do rozdzielenia par nawiasów kwadratowych:
+```markdown
+To jest [przykładowy] [id] link referencyjny.
 ```
 
-Reference-style links use a second set of square brackets, inside which you place a label of your choosing to identify the link:
+Następnie, gdziekolwiek w dokumencie definiujemy link referencyjny w nowej linii, jak poniżej:
+
 ```markdown
-This is [an example][id] reference-style link.
+[id]: http://example.com/  "Opcjonalny tytuł linku"
 ```
 
-You can optionally use a space to separate the sets of brackets:
-```markdown
-This is [an example] [id] reference-style link.
-```
-
-Then, anywhere in the document, you define your link label like this, on a line by itself:
-```markdown
-[id]: http://example.com/  "Optional Title Here"
-```
-
-**GitHub** and **GitBook** supports URL autolinking. They will autolink standard URLs, so if you want to link to a URL (instead of setting link text), you can simply enter the URL and it will be turned into a link to that URL.
+**GitHub** oraz **GitBook** obsługują autolinkowanie adresów URL. Jeśli chcesz wstawić link (zamiast ustawiać tekst linku) możesz po prostu wpisać URL i zostanie on automatycznie przetworzony w działający link.
 
 
----
-
-Here's a quiz about markdown links.
-
-Select the valid links:
-- [x] `[a link](http://google.fr)`
-- [ ] `(a link)[http://google.fr]`
-
-> The link text is delimited by [square brackets].
-
-What are the correct informations from this link: ```[a link](http://google.fr "google")```
-- [ ] the link is https://google.fr
-- [x] the title of the link is "google"
-- [ ] it'll show the text "google"
-- [x] it'll show the text "a link"
-
-> Links can have 3 parts: the text, the url and a title.
-
----
 

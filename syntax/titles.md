@@ -54,30 +54,4 @@ Opcjonalnie możesz *zamykać* znaczniki nagłówków. To tylko kosmetyka - moż
 ```
 
 
----
-
-To jest któtki quiz o nagłówkach w markdown.
-
-Zaznacz poprawnie utworzone nagłówki:
-- [x] `# hello`
-- [ ] `#hello`
-
-> Nagłówki wymagają spacji pomiędzy znakiem hash a tekstem nagłówka.
-
-Zaznacz poprawnie utworzone nagłówki:
-- [ ]
-```
-test
-########
-```
-- [x]
-```
-test
-=======
-```
-
-> Tylko znaki '=' oraz '-' mogą być użyte do utworzenia nagłówka.
-
----
-
 

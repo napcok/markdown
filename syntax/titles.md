@@ -1,10 +1,11 @@
 # Nagłówki
+Gdy piszemy dokument w markdown musimy mieć możliwość dodawania tytułów i nagłówków.
 
-As we started writing a markdown document, we need to add a title and some sub-headers.
+Markdown udostępnia dwa sposoby tworzenia nagłówków.
 
-Markdown supports two styles of headers, Setext and atx.
+Pierwszy z nich to podkreślanie za pomocą znaków = (równa się) - dla nagłówków pierwszego poziomu oraz znaków - (myślnik) - dla nagłówków drugiego poziomu.
 
-Setext-style headers are “underlined” using equal signs (for first-level headers) and dashes (for second-level headers). For example:
+Kod:
 
 ```
 To jest nagłówek H1
@@ -16,39 +17,54 @@ To jest nagłówek H2
 
 Jakakolwiek ilość **=** lub **-** pod treścią nagłówka zadziała.
 
-Atx-style headers use 1-6 hash characters at the start of the line, corresponding to header levels 1-6. For example:
+Wynik:
+To jest nagłówek H1
+===================
+
+To jest nagłówek H2
+-------------------
+
+
+Drugi sposób to użycie od 1 do 6 znaków # (hash) na początku linii, odpowiadających nagłówkom poziomów 1 - 6.
+
+Kod:
+```
+# To jest nagłówek H1
+
+## To jest nagłówek H2
+
+###### To jest nagłówek H6
+```
+
+Wynik:
+# To jest nagłówek H1
+
+## To jest nagłówek H2
+
+###### To jest nagłówek H6
+
+Opcjonalnie możesz *zamykać* znaczniki nagłówków. To tylko kosmetyka - możesz tak robić jeśli myślisz że będzie to wyglądało lepiej. Ilość zamykających znaków # nie musi odpowiadać ilości znaków użytych do *otwarcia* nagłówka.
 
 ```
-# This is an H1
+# To jest nagłówek H1 #
 
-## This is an H2
+## To jest nagłówek H2 ##
 
-###### This is an H6
-```
-
-
-Optionally, you may “close” atx-style headers. This is purely cosmetic — you can use this if you think it looks better. The closing hashes don’t even need to match the number of hashes used to open the header. (The number of opening hashes determines the header level.) :
-
-```
-# This is an H1 #
-
-## This is an H2 ##
-
-### This is an H3 ######
+### To jest nagłówek H3 ######
 ```
 
 
 ---
 
-Here's a quiz about markdown titles.
+To jest któtki quiz o nagłówkach w markdown.
 
-Select the valid headers:
+Zaznacz poprawnie utworzone nagłówki:
 - [x] `# hello`
 - [ ] `#hello`
 
-> Headers need space between the hash characters and the text.
+> Nagłówki wymagają spacji pomiędzy znakiem hash a tekstem nagłówka.
 
-Select the valid headers:
+Zaznacz poprawnie utworzone nagłówki:
 - [ ]
 ```
 test
@@ -60,7 +76,7 @@ test
 =======
 ```
 
-> Only '=' and '-' are accepted for underlining an header.
+> Tylko znaki '=' oraz '-' mogą być użyte do utworzenia nagłówka.
 
 ---
 

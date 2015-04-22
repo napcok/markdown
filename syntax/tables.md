@@ -1,30 +1,35 @@
-# Tables
+# Tabele
 
-Tables aren't part of the core Markdown spec, but they are part of GFM (GitHub Markdown) and Markdown Here supports them.
+Tabele nie są częścią standardowej specyfikacji Markdown, ale należą do GFM (GitHub Markdown), więc można z nich korzystać na GitHub.
 
-Here is an example of table with the output below:
+Przykładowa tabela - kod oraz wynik:
 
-    | Tables        | Are           | Cool  |
-    | ------------- |:-------------:| -----:|
-    | col 3 is      | right-aligned | $1600 |
-    | col 2 is      | centered      |   $12 |
-    | zebra stripes | are neat      |    $1 |
+    | Tabele        | są                  | fajne |
+    | ------------- |:-------------------:| -----:|
+    | kol 3 jest    | wyrównana do prawej | $1600 |
+    | kol 2 jest    | wycentrowana        |   $12 |
+    | wierzez zebra | są fajne            |    $1 |
+
+| Tabele        | są                  | fajne |
+| ------------- |:-------------------:| -----:|
+| kol 3 jest    | wyrównana do prawej | $1600 |
+| kol 2 jest    | wycentrowana        |   $12 |
+| wierzez zebra | są fajne            |    $1 |
+
+Dwukropki są używane do określenia wyrównania kolumn.
 
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+Zewnętrzne kreski (|) są opcjonalne, nie musisz także starać się wyrównywać wszystkich kolumn w wierszu. Możesz także używać formatowania markdown w komórkach tabeli.
 
-Colons can be used to align columns.
+Przykład:
 
-The outer pipes (|) are optional, and you don't need to make the raw Markdown line up prettily. You can also use inline Markdown.
-
-Example:
-
-    Markdown | Less | Pretty
+    Markdown | niezbyt | staranny
     --- | --- | ---
-    *Still* | `renders` | **nicely**
+    *Nadal* | `renderuje się` | **ładnie**
     1 | 2 | 3
 
+
+Markdown | niezbyt | staranny
+--- | --- | ---
+*Nadal* | `renderuje się` | **ładnie**
+1 | 2 | 3

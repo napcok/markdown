@@ -1,4 +1,4 @@
-# Images
+# Obrazki
 
 ```markdown
 # Inline

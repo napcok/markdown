@@ -1,4 +1,4 @@
-# Links
+# Linki
 
 Markdown supports two styles of links: inline and reference.
 

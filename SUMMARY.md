@@ -1,9 +1,10 @@
 # Summary
 
-* [About Markdown](about/README.md)
-* [Titles](syntax/titles.md)
-* [Links](syntax/links.md)
-* [Images](syntax/images.md)
-* [Code Blocks](syntax/code.md)
-* [Tables](syntax/tables.md)
+* [Wstęp](README.md)
+* [O Markdown](about/README.md)
+* [Nagłówki](syntax/titles.md)
+* [Linki](syntax/links.md)
+* [Obrazki](syntax/images.md)
+* [Bloki kodu](syntax/code.md)
+* [Tabele](syntax/tables.md)
 

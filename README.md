@@ -1,13 +1,13 @@
-Learn Markdown
+Poznaj Markdown
 ========
 
-You may have heard about Markdown, if you have it's a good thing.
+**Markdown** jest to język znaczników przeznaczony do formatowania tekstu. Powstał w celu maksymalnego uproszczenia tworzenia i formatowania tekstu.
+Markdown to format czysto tekstowy, można go łatwo konwertować do **HTML**. A także **pdf**, **epub** czy **mobi**.
 
-Markdown is a plain text formatting syntax designed so that it can optionally be converted to HTML.
+Dzięki temu opracowaniu nauczysz się jak pisać dokumenty wykorzystując składnię markdown.
 
-In this book, you'll learn how to write document using the markdown syntax.
 
-[![Figure 1](./assets/preview.png)](./assets/preview.png)
+[![Obrazek 1](./assets/preview.png)](./assets/preview.png)
 
-Figure 1: Example of markdown with associated output document on the right.
+Obrazek 1: Przykład tekstu markdown wraz z wyrenderowanym dokumentem po prawej.
 

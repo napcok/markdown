@@ -1,4 +1,4 @@
-# Short Introduction about Markdown
+# Krótkie wprowadzenie do Markdown
 
 The Markdown language was created in 2004 by John Gruber with substantial contributions from Aaron Swartz, with the goal of allowing people “to write using an easy-to-read, easy-to-write plain text format, and optionally convert it to structurally valid XHTML (or HTML)”.
 
@@ -14,6 +14,6 @@ Markdown is used in **GitHub**, **GitBook**, **Reddit**, **Diaspora**, **Stack O
 
 Even this book is written using Markdown: [Raw content of this page](https://raw.githubusercontent.com/GitbookIO/markdown/master/about/README.md).
 
-### Files
+### Pliki
 
 A markdown document is a text file with the `.md` extension. You can open a markdown file using a simple text editor.

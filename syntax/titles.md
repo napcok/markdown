@@ -1,4 +1,4 @@
-# Titles
+# Nagłówki
 
 As we started writing a markdown document, we need to add a title and some sub-headers.
 
@@ -7,14 +7,14 @@ Markdown supports two styles of headers, Setext and atx.
 Setext-style headers are “underlined” using equal signs (for first-level headers) and dashes (for second-level headers). For example:
 
 ```
-This is an H1
-=============
+To jest nagłówek H1
+===================
 
-This is an H2
--------------
+To jest nagłówek H2
+-------------------
 ```
 
-Any number of underlining =’s or -’s will work.
+Jakakolwiek ilość **=** lub **-** pod treścią nagłówka zadziała.
 
 Atx-style headers use 1-6 hash characters at the start of the line, corresponding to header levels 1-6. For example:
 
@@ -49,12 +49,12 @@ Select the valid headers:
 > Headers need space between the hash characters and the text.
 
 Select the valid headers:
-- [ ]  
+- [ ]
 ```
 test
 ########
 ```
-- [x]   
+- [x]
 ```
 test
 =======

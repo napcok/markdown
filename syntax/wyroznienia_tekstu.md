@@ -3,6 +3,7 @@
 ## Pogrubienie i kursywa
 
 Kod:
+
 ```
 **pogrubienie** lub __pogrubienie__ (CTRL + B)
 
@@ -12,6 +13,7 @@ Kod:
 Na przykład taki, _który będzie wyświetlany w kilku liniach_.
 Naprawę, spory kawałek tekstu, _całkiem_ spory.**
 ```
+
 Efekt:
 
 **pogrubienie** lub __pogrubienie__ (CTRL + B)

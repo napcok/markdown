@@ -3,7 +3,10 @@
     "description": "Krótki przewodnik po składni Markdown",
     "language": "pl", 
     "gitbook": "2.x.x",
-    "plugins": [
-        "quizzes"
-    ]
+    "plugins": [],
+    "links": {
+        "sidebar": {
+            "Biblioteka ABC Linuksa": "http://abclinuksa.pl"
+        }
+    }
 }
